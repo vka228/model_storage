@@ -1,0 +1,51 @@
+{
+  "joint_names": [
+    "Right_Hip_Pitch",
+    "Right_Knee_Pitch",
+
+    "Right_Hip_Roll",
+    "Left_Hip_Roll",
+    "Left_Hip_Pitch",
+    "Left_Knee_Pitch"
+  ],
+  "trajectories": [
+    {
+      "start_frame": 0,
+      "end_frame": 50,
+      "joint_positions": [
+        [0,   0.3],
+        [0,   0.4],
+        [0,  -0.35],
+        [0,  -0.2],
+        [0, -0.05],
+        [0, -0.1]
+      ]
+    },
+
+    {
+      "start_frame": 51,
+      "end_frame": 55,
+      "joint_positions": [
+        [0.3,   -0.1],
+        [0.4,   -0.05],
+        [-0.3,  -0.1],
+        [-0.2,  -0.05],
+        [-0.05, -0.05],
+        [-0.1, -0.1]
+      ]
+    },
+
+    {
+      "start_frame": 56,
+      "end_frame": 80,
+      "joint_positions": [
+        [-0.1,   0],
+        [-0.05,   0],
+        [-0.1,  -0.0],
+        [-0.05,  -0.0],
+        [-0.05, -0.0],
+        [-0.1, -0.0]
+      ]
+    }
+  ]
+}
